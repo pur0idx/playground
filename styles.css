@@ -1,9 +1,9 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: 'Poppins', sans-serif; /* Modern font */
-    background-color: #f6f8fa;  /* Light gray background */
-    color: #24292e;             /* Dark text */
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6f8fa;
+    color: #24292e;
     text-align: center;
 }
 
@@ -15,24 +15,24 @@ body {
 }
 
 .emoji-container {
-    font-size: 6em; /* Huge emoji size */
+    font-size: 6em;
     margin-bottom: 10px;
 }
 
 header {
     padding: 20px;
-    color: #24292e;      /* Dark text color */
+    color: #24292e;
 }
 
 h1 {
-    font-size: 1.8em; /* Reduced font size */
+    font-size: 1.8em;
     margin: 0;
 }
 
 h3 {
     font-size: 1.1em;
-    color: #586069;  /* Slightly lighter gray for the university name */
-    margin: 5px 0 20px; /* Space below the university name */
+    color: #586069;
+    margin: 5px 0 20px;
 }
 
 main {
@@ -40,22 +40,22 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px; /* Space between buttons */
+    gap: 20px;
 }
 
 .social-buttons {
     display: flex;
-    gap: 15px; /* Space between buttons */
+    gap: 15px;
 }
 
 .social-button {
-    background-color: #ffffff;  /* White background */
-    color: #24292e;             /* Dark text */
-    border: 1px solid #d0d7de;  /* Light gray border */
+    background-color: #ffffff;
+    color: #24292e;
+    border: 1px solid #d0d7de;
     border-radius: 6px;
     padding: 10px 20px;
     font-size: 1.1em;
-    font-weight: 600;           /* Bold text */
+    font-weight: 600;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -69,23 +69,22 @@ main {
 }
 
 .social-button:hover {
-    background-color: #f3f4f6;  /* Light gray on hover */
-    border-color: #c0c0c0;      /* Slightly darker gray border on hover */
+    background-color: #f3f4f6;
+    border-color: #c0c0c0;
 }
 
 footer {
     padding: 15px;
-    color: #707070;  /* Lighter grey text in footer */
-    font-size: 0.9em; /* Slightly smaller font size */
-    font-family: 'Ubuntu Mono', monospace; /* Ubuntu Mono font */
+    color: #707070;
+    font-size: 0.9em;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
-/* Hover effect for email and phone */
 .highlight {
-    color: #24292e;   /* Dark text for default */
+    color: #24292e;
     text-decoration: none;
     cursor: pointer;
-    position: relative; /* Required for pseudo-element positioning */
+    position: relative;
     transition: color 0.3s ease;
 }
 
@@ -96,15 +95,15 @@ footer {
     bottom: 0;
     width: 100%;
     height: 0;
-    background-color: #0366d6; /* Blue-like color */
-    z-index: -1; /* Place behind the text */
+    background-color: #0366d6;
+    z-index: -1;
     transition: height 0.3s ease;
 }
 
 .highlight:hover {
-    color: #00ccff; /* Change text color to white on hover */
+    color: #00ccff;
 }
 
 .highlight:hover::before {
-    height: 100%; /* Expand the background to cover the text */
+    height: 100%;
 }
